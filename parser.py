@@ -66,7 +66,7 @@ def preprocess(sentence):
     """
     result = nltk.tokenize.word_tokenize(sentence.lower())
     result = [w for w in result if (w.isalnum() and not w.isdigit())]
-    print(result)
+    # print(result)
     return result
 
 
